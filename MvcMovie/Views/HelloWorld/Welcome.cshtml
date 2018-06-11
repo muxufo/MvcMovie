@@ -1,0 +1,11 @@
+﻿
+@{
+<ul>
+    @for (var i = 0; i < (int)ViewData["NumTimes"]; i++)
+    {
+        <li>
+            @ViewData["Message"]
+        </li>
+    }
+</ul>
+}
